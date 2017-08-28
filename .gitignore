@@ -1,0 +1,9 @@
+
+.project
+.settings/org.eclipse.m2e.core.prefs
+sc-config-server/.classpath
+sc-config-server/.settings/org.eclipse.jdt.core.prefs
+sc-config-server/.settings/org.eclipse.m2e.core.prefs
+sc-config-server/target/classes/META-INF/MANIFEST.MF
+sc-config-server/target/classes/META-INF/maven/com.yu/sc-config-server/pom.properties
+sc-config-server/target/classes/META-INF/maven/com.yu/sc-config-server/pom.xml
