@@ -5,7 +5,42 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>sc-sample</name>
+  
+  <parent>
+  	<groupId>org.springframework.boot</groupId>
+  	<artifactId>spring-boot-starter-parent</artifactId>
+  	<version>1.5.6.RELEASE</version>
+  </parent>
+  
+  <properties>
+  	<java.version>1.8</java.version>
+  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>org.springframework.cloud</groupId>
+  			<artifactId>spring-cloud-dependencies</artifactId>
+  			<version>Dalston.SR1</version>
+  			<type>pom</type>
+  			<scope>import</scope>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
+  
+  
   <modules>
   	<module>sc-config-server</module>
+  	<module>sc-eureka-server</module>
+  	<module>sc-eureka-ribbon</module>
+  	<module>sc-eureka-feign</module>
+  	<module>sc-eureka-provider</module>
+  	<module>sc-zuul</module>
+  	<module>sc-stream</module>
+  	<module>sc-hystrix-client</module>
+  	<module>sc-hystrix-dashboard</module>
+  	<module>sc-zipkin-collector</module>
+  	<module>sc-trubine</module>
   </modules>
 </project>
