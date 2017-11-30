@@ -1,0 +1,6 @@
+server:
+  port: 1112
+  
+book:
+  name: God is a boy.
+  auth: jackson

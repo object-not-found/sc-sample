@@ -1,0 +1,6 @@
+server:
+  port: 1111
+  
+book:
+  name: God is a girl.
+  auth: jack
