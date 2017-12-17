@@ -1,5 +1,5 @@
 server:
-  port: 1121
+  port: 1122
   
 spring:
   application:
@@ -8,6 +8,8 @@ spring:
 eureka:
   instance:
     hostname: localhost
+    #leaseRenwlIntervalInSeconds: 10
+    #leaseExpirationDurationInSeconds: 30
   client:
     serviceUrl:
       defaultZone: http://localhost:1111/eureka/
