@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sc-config-server/sc-config-server.iml" filepath="$PROJECT_DIR$/sc-config-server/sc-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-eureka-feign/sc-eureka-feign.iml" filepath="$PROJECT_DIR$/sc-eureka-feign/sc-eureka-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-eureka-provider/sc-eureka-provider.iml" filepath="$PROJECT_DIR$/sc-eureka-provider/sc-eureka-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-eureka-server/sc-eureka-server.iml" filepath="$PROJECT_DIR$/sc-eureka-server/sc-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-hystrix-client/sc-hystrix-client.iml" filepath="$PROJECT_DIR$/sc-hystrix-client/sc-hystrix-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-hystrix-dashboard/sc-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/sc-hystrix-dashboard/sc-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-sample.iml" filepath="$PROJECT_DIR$/sc-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-stream/sc-stream.iml" filepath="$PROJECT_DIR$/sc-stream/sc-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-trubine/sc-trubine.iml" filepath="$PROJECT_DIR$/sc-trubine/sc-trubine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-zipkin-collector/sc-zipkin-collector.iml" filepath="$PROJECT_DIR$/sc-zipkin-collector/sc-zipkin-collector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-zuul/sc-zuul.iml" filepath="$PROJECT_DIR$/sc-zuul/sc-zuul.iml" />
+    </modules>
+  </component>
+</project>

@@ -33,7 +33,6 @@
   <modules>
   	<module>sc-config-server</module>
   	<module>sc-eureka-server</module>
-  	<module>sc-eureka-ribbon</module>
   	<module>sc-eureka-feign</module>
   	<module>sc-eureka-provider</module>
   	<module>sc-zuul</module>

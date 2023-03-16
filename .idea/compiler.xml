@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sc-eureka-server" />
+        <module name="sc-eureka-feign" />
+        <module name="sc-zipkin-collector" />
+        <module name="sc-hystrix-dashboard" />
+        <module name="sc-config-server" />
+        <module name="sc-eureka-provider" />
+        <module name="sc-zuul" />
+        <module name="sc-hystrix-client" />
+        <module name="sc-stream" />
+        <module name="sc-trubine" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="sc-config-server" target="1.8" />
+      <module name="sc-eureka-feign" target="1.8" />
+      <module name="sc-eureka-provider" target="1.8" />
+      <module name="sc-eureka-ribbon" target="1.8" />
+      <module name="sc-eureka-server" target="1.8" />
+      <module name="sc-hystrix-client" target="1.8" />
+      <module name="sc-hystrix-dashboard" target="1.8" />
+      <module name="sc-sample" target="1.8" />
+      <module name="sc-stream" target="1.8" />
+      <module name="sc-trubine" target="1.8" />
+      <module name="sc-zipkin-collector" target="1.8" />
+      <module name="sc-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
